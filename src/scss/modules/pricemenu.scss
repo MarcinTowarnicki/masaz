@@ -1,0 +1,24 @@
+.massageName {
+    font-size: 1.2rem;
+}
+.massagePrice {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.prices__list {
+list-style-type: none;
+padding: 2% 6%;
+}
+.prices__list--item {
+display: grid;
+grid-template-columns: 3fr 5fr 3fr;
+place-items: center;
+margin-bottom: 10px;
+}
+.prices__list--inlineSeparator {
+    border-bottom: dotted 1px #797979;
+    width: 80%;
+}
+.prices__title {
+    margin-left: 5%;
+}

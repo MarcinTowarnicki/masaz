@@ -1,0 +1,25 @@
+.header {
+    padding: 2% 4%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    &__logo--image {
+        max-width: 70%;
+    }
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__info--button {
+        padding: 4% 8%;
+        background-color: $lightBg;
+        border-radius: $btnBorderRadius;
+        text-decoration: none;
+        font-weight: 700;
+        color: #fff;
+    }
+    &__tagline {
+        display: block;
+        font-size: 0.7rem;
+    }
+}
