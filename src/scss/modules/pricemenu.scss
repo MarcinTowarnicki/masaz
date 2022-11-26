@@ -1,5 +1,6 @@
 .massageDurration {
-    font-size: 0.8rem
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 .massageName {
     font-size: 1.2rem;
@@ -16,8 +17,7 @@ padding: 2% 6%;
 .prices__list--item {
 display: grid;
 grid-template-columns: 5fr 4fr 3fr;
-
-margin-bottom: 10px;
+margin-bottom: 5%;
 }
 .prices__list--inlineSeparator {
     border-bottom: dotted 1px #797979;
