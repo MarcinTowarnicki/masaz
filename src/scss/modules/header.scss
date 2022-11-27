@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     &__logo--image {
-        max-width: 70%;
+        max-width: 60%;
     }
     &__info {
         display: flex;
@@ -21,5 +21,10 @@
     &__tagline {
         display: block;
         font-size: 0.8rem;
+    }
+}
+@media (min-width: $mobile-horizont) and (max-width: $tablet) {
+    .header__logo--image {
+        max-width: 40%;
     }
 }

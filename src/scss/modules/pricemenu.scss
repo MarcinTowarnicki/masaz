@@ -9,6 +9,7 @@
     font-size: 1.3rem;
     font-weight: 700;
     align-self: center;
+    justify-self: center;
 }
 .prices__list {
 list-style-type: none;
@@ -23,7 +24,17 @@ margin-bottom: 5%;
     border-bottom: dotted 1px #797979;
     width: 80%;
     align-self: center;
+    justify-self: center;
 }
 .prices__title {
     margin-left: 5%;
+}
+
+@media (min-width: $mobile-horizont) and (max-width: $desktop) {
+    .prices__list--item {
+        grid-template-columns: 6fr 4fr 2fr;
+    }
+    .prices__list--inlineSeparator {
+        width: 90%;
+    }
 }
