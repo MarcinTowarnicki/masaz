@@ -28,3 +28,9 @@
         max-width: 40%;
     }
 }
+
+@media (min-width: $desktop) {
+    .header__logo--image {
+        max-width: 25%;
+    }
+}
